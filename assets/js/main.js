@@ -51,7 +51,7 @@
                                             <img class="product-image" src="https://m-auto.herokuapp.com/api/ressources/${element['imgcover']}" alt="dav.me">
                                         </div>
                                         <div class="product-dscr-container">
-                                            <div class="product-title">${element.nom}</div>
+                                            <div class="product-title text-uppercase text-primary">${element.nom}</div>
                                             <div class="product-price">US $${element.prix}</div>
                                             <div class="oriArea">US $${element.prix - (element.prix * .20)}
                                                 <div class="discount-block">-20%</div>
@@ -59,7 +59,7 @@
                                             <div class="sold-area">
                                                 <div class="star-icon">
                                                 </div>4.4 |
-                                                <div class="product-sold-count">236 Sold</div>
+                                                <div class="product-sold-count text-primary">236 Sold</div>
                                             </div>
                                         </div>
                                     </div>
