@@ -1,0 +1,11 @@
+{
+    "name": "mauto-web-app",
+    "version": "1.0.0",
+    "description": "Une application de display des produits d'un site de E-Commerce",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "davidmened@gmail.com",
+    "license": "ISC"
+}
