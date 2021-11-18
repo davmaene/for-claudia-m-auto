@@ -22,11 +22,11 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Claudette | M-auto</a>
+            <a class="navbar-brand" href="#">BBC | M-auto</a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -51,7 +51,9 @@
             <?php include("./pages/$page") ?>
         <!-- </div> -->
     </div>
-
+    <!-- <footer class="position-absolute d-flex justify-content-center bg-dark text-white w-100 mt-5" style="top: 100vh;">
+        <b>&copy; M-Auto <script> document.write(new Date().getFullYear()) </script> | By Ir Bahati Bahane Chance</b>
+    </footer> -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

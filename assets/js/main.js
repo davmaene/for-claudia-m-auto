@@ -24,7 +24,7 @@
         }, error => {
             const er = error.response ? error.response : undefined;
             return er ? er : new Promise.reject(error)
-        });
+    });
     const loaddata = async(cb) => {
         try {
             axios({
@@ -46,7 +46,7 @@
                                 }).html(
                                     `
                                 <div class="recommendation-column recommendation-column-first" style="cursor: pointer">
-                                    <div class="product-container border rounded">
+                                    <div class="product-container border rounded border-dark">
                                         <div class="product-image-container" style="padding-bottom: 100%;">
                                             <img class="product-image" src="https://m-auto.herokuapp.com/api/ressources/${element['imgcover']}" alt="dav.me">
                                         </div>

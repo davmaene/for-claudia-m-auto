@@ -1,6 +1,6 @@
-<div class="card bg-primary">
+<div class="card">
     <div class="card-header">
-        <h5 class="text-white">Detail > <span class="item-name text-primary"></span></h5>
+        <h5 class="text-dark">Detail > <span class="item-name text-primary"></span></h5>
     </div>
     <div class="card-body p-1">
         <div class="w-100 img"></div>
