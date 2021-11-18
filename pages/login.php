@@ -12,7 +12,7 @@
         <div class="form-group">
             <label for="phone">Numero de téléphone</label>
             <input type="text" name="telephone" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Enter phone number ex: +243 90...." required>
-            <small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+            <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small> -->
         </div>
         <div class="form-group">
             <label for="pwd">Mot de passe</label>
