@@ -17,7 +17,7 @@
     <script src="assets/vendor/jq.1.js"></script>
     <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.1.0/base64.min.js"></script>
-    <title>M Auto</title>
+    <title>BBC | M Auto</title>
 </head>
 
 <body>
