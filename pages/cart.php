@@ -17,7 +17,8 @@
 <script>
     (() => {
         const endpoint = "https://m-auto.herokuapp.com";
-        if(localStorage.getItem("current-client")){
+        // localStorage.getItem("current-client")
+        if(1){
             let mycart = window.localStorage.getItem("mycart");
             if(mycart){
                 mycart = JSON.parse(mycart);
