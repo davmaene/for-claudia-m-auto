@@ -93,11 +93,14 @@
                 data: $(".connexion-form").serialize(),
                 headers,
                 timeout,
-                url: isregister ? `${endpoint}/api/clients/register` : `${endpoint}/api/clients/login`
+                url: isregister ? 
+                    `${endpoint}/api/clients/register` : 
+                    `${endpoint}/api/clients/login`
             })
             .then(data => {
                 const status = data['data']['status'];
                 if (!isNaN(parseInt(status))) {
+
                     switch (parseInt(status)) {
                         case 200:
                             const dt = data['data']['data'];
@@ -108,7 +111,9 @@
                         case 400:
                             $(".loader-box").addClass("d-none");
                             $(".output-message").removeClass("d-none").html("<b class='text-danger'>Mot de passe ou numero entrer est incorrect !</b>")
+                            break;
                         default:
+                            console.log(data['data']['status']);
                             $(".loader-box").addClass("d-none");
                             $(".output-message").removeClass("d-none").html("<b class='text-danger'>Une erreur inattendue viens de se produire !</b>")
                             break;
