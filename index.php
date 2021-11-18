@@ -38,7 +38,7 @@
                     <a href="?page=cart" class="mr-2">
                         <span class="fa fa-shopping-cart text-primary p-2  border rounded bg-light mr" style="font-size: large;cursor: pointer;"></span>
                     </a>
-                    <a href="#" class="mr-2">
+                    <a href="?page=login" class="mr-2">
                         <span class="fa fa-user-circle text-primary p-2  border rounded bg-light" style="font-size: large;cursor: pointer;"></span>
                         <b class="px-2 name-container"></b>
                     </a>
